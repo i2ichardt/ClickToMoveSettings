@@ -1,0 +1,5 @@
+## Interface: 30300
+## Title: Click to Move Settings
+## Notes: Restores Click to Move in Interface > Mouse when the native option is missing.
+
+ClickToMoveSettings.lua
