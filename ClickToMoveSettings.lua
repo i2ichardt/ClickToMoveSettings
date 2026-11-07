@@ -23,7 +23,7 @@ local function ensureClickToMoveControl(panel)
 	end
 
 	local checkbox = CreateFrame("CheckButton", CHECKBOX_NAME, panel, "InterfaceOptionsCheckButtonTemplate")
-	checkbox:SetPoint("BOTTOMLEFT", panel, "BOTTOMLEFT", 16, 20)
+	checkbox:SetPoint("TOPLEFT", panel, "TOPLEFT", 16, -250)
 	checkbox:SetChecked(GetCVar("autointeract") == "1")
 	checkbox:SetScript("OnClick", function(self)
 		SetCVar("autointeract", self:GetChecked() and "1" or "0")
